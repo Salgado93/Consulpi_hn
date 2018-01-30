@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Consulpi: Construcción, Consultoría y Supervisión</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="keywords" content="construcción, constructora, empresas constructoras, proyectos de viviendas, construcción de casas">
+  	<meta name="description" content="Consulpi es una empresa constructora, atendemos servicios como: consultoría, construcción, proyectos de viviendas, construcción de casas y supervisión.">
+  	<meta name="author" content="Daniel Santiago Salgado">
+	<meta name="owner" content="Ivonne Pinto">
+	<meta name="robots" content="index, follow">
+
+	<script src="js/modernizr-custom.js"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/design.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<figure>
+					<img src="img/icon.jpg" alt="">
+				</figure>
+			</a>
+			<a href="index.html">CONSULPI</a>
+		</h1>
+
+		<nav id="ioMenu">
+			<figure id="showMenu" class="ioMenuMovil" onClick="displayMenu()">
+				<img src="img/menu.png" alt="Menu" title="Menu">
+			</figure>
+
+			<div id="card_menu">
+				<figure id="hideMenu" class="ioMenuMovil" onClick="displayMenu()">
+					<img src="img/exit.png" alt="Cerrar" title="Cerrar">
+				</figure>
+				<figure id="logo_menu">
+					<img src="img/logo_consulpi.png" alt="Logo Consulpi" title="Logo Consulpi">
+				</figure>
+				<ul>
+					<li>
+						<a onClick= "navSection('home')" href="#">Inicio</a>
+					</li>
+					<li>
+						<a onClick= "navSection('empresa')" href="#">Empresa</a>
+					</li>
+					<li>
+						<a onClick= "navSection('servicios')" href="#">Servicios</a>
+					</li>
+					<li>
+						<a onClick= "navSection('proyectos')" href="#">Proyectos</a>
+					</li>
+					<li>
+						<a onClick="displayFormContact('block')" href="#">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="prev_section" onClick="displaySection('prev')">
+			<img src="icons/prevb.png" alt="Atras">
+		</div>
+		<div id="next_section" onClick="displaySection('next')">
+			<img src="icons/prevb.png" alt="Siguiente">
+		</div>
+	</header>
+
+
+	<div id="slider">
+		<section class="slide" id="home" style="display:block">
+			<div class="mainlogo">
+				<h2><strong>CONSULPI </strong>Constructora y Consultora</h2>
+				<figure>
+					<img src="img/logo_consulpi.png" alt="Logo Consulpi" title="Logo Consulpi">
+				</figure>
+			</div>
+			<div class="buttonspage">
+				<div id="contratame" onClick="displayFormContact('block')">CONTRATAR</div>
+			</div>
+		</section>
+		<section class="slide" id="empresa" style="display:none">
+			<div class="top_empresa">
+				<figure><img src="img/consultora.jpg" alt="Imagen Empresa"></figure>
+				<div class="text_empresa">
+					<h2>Empresa</h2>
+					<p>Constructora y Consultora Pinto S. de R.L. de C.V. con nombre comercial Consulpi. S. de R.L. de C.V., nace jurídicamente el 2 de julio de 1991. Es una empresa de servicios varios en el más amplio concepto, para el verdadero desarrollo de Honduras. Consulpi actualmente cuenta con una experiencia de más de 25 años; desarrollando diferentes tipos de proyectos, contribuyendo así al desarrollo de las y las hondureños generando empleo y obteniendo familias dignas. Atendemos servicios profesionales de: ingeniería civil, diseño, construcción, supervisión, Construcción de casas, proyectos de viviendas, remodelación, arquitectura, compra-venta de maquinaria, equipo, materiales de construcción, bienes inmuebles (bienes raíces), empresas constructoras, insumos y artículos; todo esto para todo tipo de proyecto de ingeniería en general. Incluyendo toda actividad de lícito comercio.</p>
+				</div>
+			</div>
+			<div class="bottom_empresa">
+				<figure><img src="img/topografia.jpg" alt="Imagen Empresa"></figure>
+				<div class="text_empresa">
+					<h3>Misión</h3>
+					<p>Generar oportunidades y empleo digno a las familias verdaderas bajo principios y valores, conviviendo en paz y de manera sostenible, para lograr una Honduras digna.</p>
+					<h3>Visión</h3>
+					<p>Lograr una Honduras productiva, desarrollada con mega infraestructuras de vanguardia.</p>
+					<h3>Lema</h3>
+					<p>Edificando nuestro pais; para plenitud de vida.</p>
+				</div>
+			</div>
+		</section>
+		<section class="slide" id="servicios" style="display:none">
+			<div id="servicios_profesionales">
+				<article id="conocimientos">
+					<h2>Servicios</h2>
+		          	<ul>
+				        <li>Gestión de la Construcción</li>
+				        <li>Infraestructura Vial</li>
+				        <li>Topografía</li>
+				        <li>Renta y Venta de Equipo</li>
+				        <li>Materiales de Construccion</li>
+				        <li>Obras Hidráulicas y Eléctricas</li>
+				        <li>Proyectos de Viviendas</li>
+				        <li>Ingeniería Civil</li>
+				        <li>Consultoría</li>
+
+			      	</ul>
+			      	<ul>
+				        <li>Diseño</li>
+				        <li>Supervisión</li>
+				        <li>Bienes Raíces</li>
+				        <li>Gestión de Proyectos</li>
+				        <li>Minería y Trituración</li>
+				        <li>Movimientos de Tierra</li>
+				        <li>Remodelación</li>
+				        <li>Alcantarillados</li>
+				        <li>Aguas Residuales</li>
+			      	</ul>		
+				</article>
+			</div>
+      		<div class="bottom_servicios">
+				<article>
+					<figure>
+						<img src="img/gestion_construccion.jpg" alt="Servicio" title="Gestión de la Construcción">
+					</figure>
+				  	<div class="card_service">
+				    	<h3><strong>Construcción</strong></h3>
+				    	<p>Nuestro servicio incluye: diseño y elaboración de planos, tramite de permiso de construcción, preparación de documentos, programación, selección de proveedores, construcción de obras, supervisión e inspección de los trabajos y gestión de apoyo logístico.</p>
+				  	</div>
+				</article>
+				<article>
+					<figure>
+						<img src="img/infraestructura_vial.jpg" alt="Servicio" title="Infraestructura Vial">
+					</figure>	
+				  	<div class="card_service">
+				    	<h3><strong>Infraestructura Vial</strong></h3>
+				    	<p>Consulpi cuenta con el equipo y maquinaria necesaria para la realización de proyectos de mantenimiento de la red vial pavimentada y no pavimentada, movimientos de tierra, aperturas, sellos asfálticos, y pavimentaciones con concreto hidráulico y asfáltico.</p>
+				  	</div>
+				</article>
+				<article>
+					<figure>
+						<img src="img/supervision.jpg" alt="Servicio" title="Supervisión">
+					</figure>
+				  	<div class="card_service">
+				    	<h3><strong>Supervisión</strong></h3>
+				    	<p>Contamos con profesionales técnicos y administrativos altamente capacitados, que nos permite estar preparados para asumir responsablemente la supervision de los proyectos que se nos encomienden.</p>
+				  	</div>
+				</article>
+				<article>
+					<figure>
+						<img src="img/proyectos_viviendas.jpg" alt="Servicio" title="Proyectos de Viviendas">
+					</figure>
+				  	<div class="card_service">
+				    	<h3><strong>Proyectos de Viviendas</strong></h3>
+				    	<p>En Consulpi estamos en la capacidad de ejecutar todo tipo de obras de edificación y urbanizaciónes para entidades públicas y privadas.  	Contamos con la experiencia, el personal especializado, la mano de obra calificada y el equipo necesario.</p>
+				  	</div>
+				</article>
+			</div>	
+		</section>
+		<section class="slide" id="proyectos" style="display:none">
+			<h2 class="w3-center">Proyectos</h2>
+			<div class="w3-content w3-display-container" style="width:100%">
+				<div class="w3-display-container mySlides">
+				  	<img src="img/proyecto1.jpg" style="width:100%" alt="Proyecto" title="Proyecto">
+			 	 	<div class="w3-display-bottomleft w3-small w3-container w3-padding-8 w3-black">
+				    	Proyecto 1
+				  	</div>
+				</div>
+				<div class="w3-display-container mySlides">
+				  	<img src="img/proyecto2.jpg" style="width:100%" alt="Proyecto" title="Proyecto">
+				  	<div class="w3-display-bottomleft w3-small w3-container w3-padding-8 w3-black">
+				    	Proyecto 2
+				  	</div>
+				</div>
+				<div class="w3-display-container mySlides">
+				  	<img src="img/proyecto2.jpg" style="width:100%" alt="Proyecto" title="Proyecto">
+				  	<div class="w3-display-bottomleft w3-small w3-container w3-padding-8 w3-black">
+				    	Proyecto 3
+				  	</div>
+				</div>
+				<div class="w3-display-container mySlides">
+				  	<img src="img/proyecto3.jpg" style="width:100%" alt="Proyecto" title="Proyecto">
+				  	<div class="w3-display-bottomleft w3-small w3-container w3-padding- w3-black">
+				    	Proyecto 4
+				  	</div>
+				</div>
+				<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		</section>
+	</div>
+
+	<div id="contact_form">
+		<form action="contact.php" id="form1" name="form1" method="post">
+			<div id="close_form" onClick="displayFormContact('none')">
+			</div>
+			<figure id="logo_mensaje">
+				<img src="icons/mail.png" alt="">
+			</figure>
+			<P>Solicita Información</P>
+			<address>
+			ingenieraivonne@hotmail.com<br> 
+			Telefono: +(504) 9951-1926<br>
+			</address>
+			<input type="text" id="name" name="name" placeholder = "Tu Nombre"/>
+			<input type="text" id="email" name="email" placeholder = "Tu Email"/>
+			<textarea name="message" id="message" placeholder="Mensaje"></textarea>
+			<input type = "submit" name = "Submit" id="button" value="ENVIAR"/>
+		</form>
+	</div>
+	<div id="contact_button" onClick="displayFormContact('block')"> 		
+	</div>
+	<footer>
+		<div class="rrss">
+			<a target="_blank" href="https://www.facebook.com/Consulpi/"></a>
+		</div>
+		<p>EDIFICANDO NUESTRO PAIS; PARA PLENITUD DE VIDA.<br>Copyright © 2018 Designed by Daniel Salgado.</p>
+	</footer>	
+
+	<script type="text/javascript">
+		var sections = new Array(4);
+		sections[0] = "home";
+		sections[1] = "empresa";
+		sections[2] = "servicios";
+		sections[3] = "proyectos";
+		alertSize(); 
+		function alertSize() { 
+		  	var myWidth = 0, myHeight = 0; 
+		  	if( typeof( window.innerWidth ) == 'number' ) { 
+			    //No-IE 
+			    myWidth = window.innerWidth; 
+			    myHeight = window.innerHeight; 
+		  	} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+			    //IE 6+ 
+			    myWidth = document.documentElement.clientWidth; 
+			    myHeight = document.documentElement.clientHeight;
+		  	} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			    //IE 4 compatible 
+			    myWidth = document.body.clientWidth; 
+			    myHeight = document.body.clientHeight; 
+		  	} 
+		 	/*window.alert( 'Width = ' + myWidth ); 
+		  	window.alert( 'Height = ' + myHeight ); 
+			document.getElementById("resultado").innerHTML="El ancho de la pagina es de "+ myWidth +"px y el alto es de "+ myHeight +"px";*/
+			var display;
+			var menu = document.getElementById("card_menu");
+			display = menu.style.display;
+			if(myWidth < 767){
+				menu.style.display = "none";
+			}
+			else{
+				menu.style.display = "block";
+			}  
+		}
+		function displayMenu(){
+			var display;
+			var card_menu = document.getElementById("card_menu");
+			display = card_menu.style.display;
+			if (display == "none") {
+				card_menu.style.display = "block";
+			}
+			else{
+				card_menu.style.display = "none";
+			}
+		}
+		function navSection(nav){
+			var search;
+			var show;
+			for (var i = 0; i < 4; i++){
+				search = document.getElementById(sections[i]);
+				search.style.display = "none";
+				if(sections[i] == nav){
+					search.style.display = "block";
+				}
+			}
+		}
+		function displaySection(nav){
+			var search;
+			var show;
+			for (var i = 0; i < 4; i++) {
+				search = document.getElementById(sections[i]);
+				show = search.style.display;
+				if (show == "block") {
+					search.style.display = "none";
+					if (nav == "next"){
+						i++;
+						if(i>3) i=0;
+					}
+					if (nav == "prev") {
+						i--;
+						if(i<0) i=3;
+					}
+					search = document.getElementById(sections[i]);
+					search.style.display = "block";
+					break;
+				}
+			}
+		}
+		function displayFormContact(status){
+			var form = document.getElementById("contact_form");
+			form.style.display = status;
+		}
+	</script>
+
+	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+	</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113184903-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-113184903-1');
+	</script>
+</body>
+</html>
