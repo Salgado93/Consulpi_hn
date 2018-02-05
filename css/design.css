@@ -262,11 +262,9 @@ header #next_section img{
 
 #slider #servicios > div{
 	display: inline-block;
-	width: 95%;
+	width: 100%;
 	vertical-align: top;
-}
-#slider #servicios article{
-	margin-bottom: 30px;
+	margin-bottom: 2%;
 }
 #slider #servicios h2{
 	font-size: 1.3em;
@@ -301,84 +299,9 @@ header #next_section img{
 	top: -6px;
 	left: -22px;
 }
-#slider #servicios .bottom_servicios{
-	position: relative;
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	/*background: yellow;*/
-}
-#slider #servicios .bottom_servicios article{
-	width: 80%;
-	height: 200px;
-	/*background: #AFAEAE;*/
-	background: white;
-	margin: 20px 0px;
-	margin-left: 10%;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	box-shadow: 0px 0px 3px #233D58;
-}
-#slider #servicios .bottom_servicios article figure{
-	width: 100%;
-	background: blue;
-	margin: 0px;
-	/*z-index: 5;*/
-	position: relative;
-	overflow: hidden;
-
-}
-#slider #servicios .bottom_servicios article figure img{
-	width: 100%;
-}
-#slider #servicios .bottom_servicios article .card_service{
-	width: 100%;
-	position: absolute;
-	background: white;
-	color: black;
-	text-decoration: none;
-	top: 66%;
-	height: 100%;
-	font-family: 'Roboto', sans-serif;
-	cursor: pointer;
-	transition-duration: 0.5s;
-	font-weight: lighter;
+#slider #servicios .w3-row-padding p{
 	font-size: 0.7em;
-	/*background: green;*/
-}
-#slider #servicios .bottom_servicios .card_service:hover{
-	top: 0%;
-}
-#slider #servicios .bottom_servicios .card_service:before{
-	font-family: 'icomoon';
-	content: "\ea0a";
-	position: absolute;
-	font-size: 1em;
-	font-weight: bold;
-	top: 28px;
-	right: 10px;
-}
-#slider #servicios .bottom_servicios .card_service:hover:before{
-	-moz-transform: rotate(90deg);
-}
-#slider #servicios .bottom_servicios .card_service h3{
-	margin-left: 15px;
-	margin-top: 25px;
-}
-#slider #servicios .bottom_servicios .card_service h3 strong{
-	color: black;
-	display: block;
-	font-size: 0.6em;
-	font-family: 'Playfair Display', serif;
-}
-#slider #servicios .bottom_servicios .card_service p{
-	color: black;
-	margin: 30px 15px;
-	font-size: 1.0em;
-	/*background: green;*/
-
-}
+} 
 #slider #proyectos .w3-center{
 	background: #29abe2;
 	color: white;
@@ -595,9 +518,9 @@ footer .rrss a:nth-child(1):before{
 		vertical-align: top;
 		/*background: yellow;*/
 	}
-	#slider #servicios .bottom_servicios article figure img{
-		margin-top: -10%;
-	}
+	#slider #servicios .w3-row-padding p{
+		font-size: 0.8em;
+	} 
 }
 @media screen and (min-width: 600px) {
 	#slider #empresa > div{
@@ -606,14 +529,6 @@ footer .rrss a:nth-child(1):before{
 	}
 	#slider #empresa .top_empresa figure,#slider #empresa .bottom_empresa figure{
 		height: 230px;
-	}
-	#slider #servicios .bottom_servicios article{
-		width: 40%;
-		margin: 20px 4.5%;
-
-	}
-	#slider #servicios .bottom_servicios article figure img{
-		margin-top: -3%;
 	}
 }
 @media screen and (min-width: 767px) {
@@ -723,9 +638,6 @@ footer .rrss a:nth-child(1):before{
 	#slider #empresa .top_empresa figure,#slider #empresa .bottom_empresa figure{
 		height: 250px;
 	}
-	#slider #servicios .bottom_servicios article figure img{
-		margin-top: -10%;
-	}
 }
 @media screen and (min-width: 950px) {
 	#slider #empresa > div{
@@ -784,31 +696,17 @@ footer .rrss a:nth-child(1):before{
 	#slider #servicios #servicios_profesionales{
 		display: inline-block;
 		width: 60%;
-		margin-left: 6%;
+		margin-left: 5%;
 		vertical-align: top;
-	}
-	#slider #servicios article{
-		margin-bottom: 30px;
 	}
 	#slider #servicios #conocimientos ul{
 		width: 30%;
 		margin-left: 5%;
 	}
-	#slider #servicios .bottom_servicios{
-		width: 90%;
+	#slider #servicios .w3-row-padding{
 		margin-left: 5%;
 	}
-	#slider #servicios .bottom_servicios article{
-		width: 30%;
-		margin: 20px 50px;
-	}
-	#slider #servicios .bottom_servicios article:nth-child(4){
-		margin-right: 0px;
-	}
-	#slider #servicios .bottom_servicios article figure img{
-		margin-top: -10%;
-	}
-	#slider #servicios .bottom_servicios article .card_service{
-		font-size: 0.8em;
+	#slider #servicios .w3-row-padding p{
+		font-size: 0.9em;
 	}
 }
